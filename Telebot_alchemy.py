@@ -6,7 +6,7 @@ from sqlalchemy.orm import Session
 from telebot.types import InputMediaPhoto
 
 # Создаем объект бота
-bot = telebot.TeleBot(token="6167075694:AAHP9vXY-4ROK8KZ3frEL9xr5S14no7w3dA")
+bot = telebot.TeleBot(token="token")
 # Создаем подключение к базе данных
 engine = create_engine("sqlite:///venera_carpets_v_2.0.db")
 # Объявляем переменную, нужна для пагинации ковров(прокрутки)
